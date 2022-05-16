@@ -9,7 +9,12 @@
     * We expect performance to depend on size of input. 
 ## Asymptotic notation
 
-O() upper bound; Ω() Lower bound;  Θ both.
+> O() upper bound  
+> Ω() Lower bound  
+> Θ both. 
+
+  
+
 <img src="https://github.com/luckyeven/6.006/blob/main/pictures/Complexities-Graph1.png?raw=true" width="98.39%" height="98.39%">
 
 
