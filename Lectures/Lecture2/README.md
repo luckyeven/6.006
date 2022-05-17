@@ -47,3 +47,13 @@ This is called memory allocation model: allocate an array of size n in Θ(n) tim
 * connect items together with pointers
 * Maintain global head pointer to keep tracking the list
 * insert/delete_first(x) also O(1) time, by editing the head pointer.
+
+## Dynamic Array: Python's List
+* Instead of resizing array to exactly m, allow array to have size = Θ(n).
+* When inserting & size =n, double size.
+* Worst case, insert_last() still Θ(n)
+* But resize only when n = 2^i
+* A few insert cost linear time, but Θ(1) on average.
+
+## Amortization
+An operation takes T(n) amortized time if any k operations take <= k*T(n)
